@@ -1,0 +1,5 @@
+user-service: (userId, username, nonNull passportId),
+связан через passportId с passport-service
+car-service: (carId, mark, name, nullable userId)
+house-service: (houseId, city, street, houseNumber, nullable userId).
+passport-service: (passportId, fullname, secondName)
